@@ -16,7 +16,7 @@ This won't work since the service provider wont be able to know when to inject w
 
 ## Solution
 
-Use an `AnimalResolver` which the clients depends on, inject this resolver to the clients. 
+Use an `AnimalResolver` which the clients depend on, inject this resolver to the clients. 
 Then, each client gives the resolver its class runtime name. 
 The resolver - which is configured at the DI section returns the implementation of `IAnimal` according to the class name. 
 
