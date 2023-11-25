@@ -3,6 +3,9 @@ using dotnet_ioc_multi_impl.Interfaces;
 
 namespace dotnet_ioc_multi_impl.Clients;
 
+/// <summary>
+/// A zookeeper which works with an animal
+/// </summary>
 public class ZooKeeper
 {
     private readonly IAnimal? _animal;

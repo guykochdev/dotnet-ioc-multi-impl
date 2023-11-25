@@ -28,7 +28,7 @@ ServiceProvider serviceProvider = serviceCollection.BuildServiceProvider();
 #endregion
 
 #region Application Logic
-// 
+// Clients initialization
 Farmer farmer = serviceProvider.GetRequiredService<Farmer>(); // Creates a Farmer instance
 farmer.Work(); // Prints "Feed Cow"
 
