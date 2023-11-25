@@ -6,7 +6,6 @@ namespace dotnet_ioc_multi_impl.Implementations;
 /// IAnimal implementation
 /// </summary>
 public class Cow : IAnimal
-
 {
     public void Feed()
     {
